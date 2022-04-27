@@ -1,4 +1,5 @@
 # P2SocialTimePixel
+Brian, Keita, Diego, Anu
 
 https://miro.com/app/board/uXjVO63KoWc=/
 
