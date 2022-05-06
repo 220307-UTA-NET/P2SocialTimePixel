@@ -24,7 +24,7 @@ namespace stpApp.BusinessLogic
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=tcp:220306-uta-net.database.windows.net,1433;Initial Catalog=220306-uta-net-MyDatabase;Persist Security Info=False;User ID=login220306;Password=AZ24qw$$;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+                optionsBuilder.UseSqlServer("Server");
             }
         }
 
