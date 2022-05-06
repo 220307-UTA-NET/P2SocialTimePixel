@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#LogoutContainer {
+    margin: 0 auto;
+    background-color: #dae0e6; 
+    width: 200px;
+    cursor:pointer;
+    height: 100px;
+    margin-top: 15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#button {
+    margin-left: 8px;
+    width: 80px;
+    height: 40px;
+    font-size: x-large;
+}
+

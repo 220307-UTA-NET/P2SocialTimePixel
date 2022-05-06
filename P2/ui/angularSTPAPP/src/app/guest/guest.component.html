@@ -1,0 +1,36 @@
+<div id="GuestContainer">
+    <input id="colorinput" type="color" #colorinput>
+    <input id="submitChange" type="submit" value="✓" (click)="createGuest(colorinput.value)">
+    <input id="reset" type="reset" value="×" (click)="resettimer()">
+</div>
+<div id="TimerContainer">
+    <h2 id="TimerNumber">0:00</h2>
+</div>
+
+<div id="buttons">
+    <button (click)="onClickUserShowRegister()" name="guestButton">Register</button>
+    <button (click)="onClickUserShownLogin()" name="guestButton">Login</button>
+</div>
+<div id="registerformHidden">
+    <form #userPost="ngForm" (ngSubmit)="onUserRegister(userPost.value)">
+    
+    <h2>Register</h2>
+    <input type="text" name="Username" placeholder="Username" ngModel> 
+    <br>
+    
+    <input type="password" name="Password" placeholder="Password" ngModel>
+    <br>
+    <input type="submit">
+    </form>
+</div>
+
+<div id="loginformHidden">
+    <form #userGet="ngForm" (ngSubmit)="onUserLogin(userGet.value)">
+    <h2>Login</h2>
+    <input type="text" name="Username" placeholder="Username" ngModel> 
+    <br>
+    <input type="password" name="Password" placeholder="Password" ngModel>
+    <br>
+    <input type="submit">
+    </form>
+</div>
